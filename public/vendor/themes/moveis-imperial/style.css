@@ -1,0 +1,205 @@
+/*
+Theme Name: Moveis Imperial
+Theme URI: Moveis Imperial
+Author: Socix
+Author URI: http://www.socix.com.br
+Description: Tema Moveis Imperial
+Version: 1.0
+Text Domain: moveis-imperial
+*/
+
+.pd-0{
+    padding: 0!important;
+}
+.pr-topo{
+    padding-right: 80px;
+}
+.logo-topo {
+  max-height: 65px;
+  /*padding-left: 60px;*/
+  
+}
+
+.navbar-default {
+    background: rgba(17, 17, 17, 0.81);
+    border-bottom: 1px solid transparent;
+}
+.logo-footer{
+    max-height: 70px;
+}
+.color-dohma {
+    color: #d01a3e;
+    font-weight: 400;
+}
+.color-socix {
+    color: #4aa6cd;
+    font-weight: 500;
+}
+.color-footer{
+    color: #a1a1a1!important;
+}
+.pdr-p{
+    padding-right: 83px;
+}
+.font-about{
+    font-size: 14px;
+    line-height: 20px;
+}
+.circle-plus{
+    display: inline-block;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    line-height: 27px;
+    font-size: 33px!important;
+    color: #77bdcc!important;
+    padding-left: 1px;
+    border: 1px solid #77bdcc;
+    margin-right: 7px;
+    vertical-align: sub;
+}
+
+.ver-mais{
+    font-size: 16px!important;
+    color: #77bdcc!important;
+    
+}
+.font-prod{
+     font-weight: 600!important;    
+}
+.pd-left{
+    padding-left: 75px;
+}
+.text-pd{
+    padding-right: 95px!important;
+}
+.natureza{
+    width: 100%;
+    padding: 80px 0;
+    background: url(images/natureza.jpg) no-repeat center center transparent;
+    background-size: cover;
+}
+.texto-verde{
+    color: #327e3c;
+    font-size: 39px;
+    text-align: right;
+    line-height: 49px;
+    font: 'Helvetica' , sans-serif!important;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+.texto-natureza{
+    font-size: 14px;
+    color: #000000;
+    font-family: 'Helvetica', sans-serif!important;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 0 0 10px;
+    padding-right: 80px;
+    text-align: justify;
+}
+.treliche{
+    width: 100%;
+    padding: 80px 0;
+    background: url(images/treliche.jpg) no-repeat center center transparent;
+    background-size: cover;
+}
+.logo-treliche{
+    max-height: 83px;
+    margin-top: 17px;
+    margin-bottom: 22px;
+}
+.texto-treliche{
+    color: #fff!important;
+    line-height: 25px;
+    font-size: 29px;
+    margin-top: 25px;
+    padding-left: 27px;
+}
+.banner{
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
+.mt-45 {
+    margin-top: 34px;
+}
+
+/** Contato **/
+.contact-info-box p {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.box_politicas_privacidade{
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(17, 17, 17, 0.81);
+    width: 100%;
+    display: none;
+}
+.content_politicas{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 16px 0px;
+}
+.content_politicas p{
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 17px;
+}
+.btn_cookie{
+    background: #e92e30;
+    color: #fff;
+    padding: 9px 12px;
+    border-radius: 8px;
+}
+.content_politicas p a{
+    color: #3ac9c2;
+}
+
+.template_page{
+    margin-top: 120px;
+}
+.template_page p{
+    color: #424242;
+}
+.template_page table tr,
+.template_page table td{
+    padding: 10px;
+    border: 1px solid;
+}
+.form_trabalheconosco .wpcf7-form-control-wrap{
+    display: block;
+}
+.form_trabalheconosco .wpcf7-form-control{
+    width: 100%;
+    padding: 8px 10px;
+}
+.form_trabalheconosco .wpcf7-submit{
+    background-color: #b92426 !important;
+    border: none !important;
+    padding: 8px 25px !important;
+    color: #fff !important;
+    float: right;
+    width: auto;
+}
+.grecaptcha-badge { 
+    visibility: hidden;
+}
+.form_trabalheconosco{
+    margin-bottom: 56px;
+}
+#trabalheconosco{
+    padding-top: 100px;
+}
