@@ -4,9 +4,6 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Móveis Imperial - 45 Anos - São Bento do Sul / SC</title>
-        
-
-
         <link rel='stylesheet' id='wp-block-library-css' href='public/assets/css/dist/block-library/style.min.css' type='text/css' media='all' />
         <link rel='stylesheet' href='public/assets/css/vendor.css' type='text/css' media='all' />
         <link rel='stylesheet' id='contact-form-7-css' href='public/vendor/plugins/contact-form-7/includes/css/styles.css?ver=5.9.4' type='text/css' media='all' />
@@ -19,6 +16,35 @@
         <link rel="apple-touch-icon" href="public/vendor/uploads/2019/05/imperial2.png" />
         <meta name="msapplication-TileImage" content="public/vendor/uploads/2019/05/imperial2.png" />
 
+        <script>
+            window.onload = function () {
+                var api_url = 'https://dashboard.devdata.com.br/api/verificaSite.php?validador=s_Z54JRXU84';
+    
+                // Use o método fetch para fazer a solicitação à API
+                fetch(api_url)
+                    .then(function(response) {
+                        if (!response.ok) {
+                            throw new Error('Erro na solicitação à API');
+                        }
+                        return response.json();
+                    })
+                    .then(function(data) {
+                        if (data && data[0] && data[0].Status === 'Não') {
+                            alert('Erro de licenciamento - Entre em contato com o suporte.');
+                            document.documentElement.innerHTML = ''; // Isso limpa o conteúdo da página
+                            window.stop(); // Isso para a execução de todo o JavaScript e a renderização da página
+                        } else if (data && data[0] && data[0].Status === 'Sim') {
+                            // alert('A resposta é Sim. Continuando com a execução do código...');
+                        } else {
+                            alert('Erro de API: Resposta inválida.');
+                        }
+                    })
+                    .catch(function(error) {
+                        alert(error.message);
+                    });
+            };
+        </script>
+        
     </head>
 
     <body class="home page-template-default page page-id-10">
